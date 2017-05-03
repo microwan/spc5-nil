@@ -18,6 +18,8 @@ cp -R ${chibios}/os/nil/src                                 ./portable/NIL_Porta
 
 # Portable OSAL.
 echo "Portable OSAL"
+mkdir -p ./portable/NIL_Portable_OSAL_Component/component/lib/include
+mkdir -p ./portable/NIL_Portable_OSAL_Component/component/lib/src
 cp ${chibios}/os/hal/osal/nil/*.h                           ./portable/NIL_Portable_OSAL_Component/component/lib/include
 cp ${chibios}/os/hal/osal/nil/*.c                           ./portable/NIL_Portable_OSAL_Component/component/lib/src
 
@@ -27,6 +29,9 @@ cp ${chibios}/os/hal/osal/nil/*.c                           ./portable/NIL_Porta
 
 # SPC560Dxx Kernel Port.
 echo "SPC560Dxx Kernel Port"
+mkdir -p ./SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component/component/root_wa/source/isrs
+mkdir -p ./SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component/component/lib/include
+mkdir -p ./SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component/component/lib/src
 cp ${code}/ports/e200/cfg/*.ftl                             ./SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component/component/root_wa/source/isrs/
 cp ${chibios}/os/nil/ports/e200/*.h                         ./SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component/component/lib/include/
 cp ${chibios}/os/nil/ports/e200/*.c                         ./SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component/component/lib/src/
@@ -44,6 +49,9 @@ cp ${chibios}/os/common/ports/e200/devices/SPC560Dxx/ppcparams.h ./SPC560Dxx/NIL
 
 # SPC560Bxx Kernel Port.
 echo "SPC560Bxx Kernel Port"
+mkdir -p ./SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component/component/root_wa/source/isrs
+mkdir -p ./SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component/component/lib/include
+mkdir -p ./SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component/component/lib/src
 cp ${code}/ports/e200/cfg/*.ftl                             ./SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component/component/root_wa/source/isrs/
 cp ${chibios}/os/nil/ports/e200/*.h                         ./SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component/component/lib/include/
 cp ${chibios}/os/nil/ports/e200/*.c                         ./SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component/component/lib/src/
@@ -60,6 +68,9 @@ cp ${chibios}/os/common/ports/e200/devices/SPC560Bxx/ppcparams.h ./SPC560Bxx/NIL
 
 # SPC57EMxx HSM Kernel Port.
 echo "SPC57EMxx HSM Kernel Port"
+mkdir -p ./SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component/component/root_wa/source/isrs
+mkdir -p ./SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component/component/lib/include
+mkdir -p ./SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component/component/lib/src
 cp ${code}/ports/e200/cfg/*.ftl                             ./SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component/component/root_wa/source/isrs/
 cp ${chibios}/os/nil/ports/e200/*.h                         ./SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component/component/lib/include/
 cp ${chibios}/os/nil/ports/e200/*.c                         ./SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component/component/lib/src/
