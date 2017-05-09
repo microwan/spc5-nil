@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.st.tools.spc5.components</groupId>
+  <artifactId>nil</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <parent>
+	<groupId>com.st.tools.spc5.components</groupId>
+	<artifactId>com.st.tools.spc5.components.parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../../Core/Build/com.st.tools.spc5.components.parent</relativePath>
+  </parent>     
+  <modules>
+    <module>SPC560Bxx/NIL_Demos_for_SPC560Bxx</module>
+    <module>SPC560Bxx/NIL_RTOS_for_SPC560Bxx</module>
+    <module>SPC560Bxx/NIL_RTOS_for_SPC560Bxx_Feature</module>
+    <module>SPC560Bxx/NIL_SPC560Bxx_Kernel_Port_Component</module>
+    <module>SPC560Dxx/NIL_Demos_for_SPC560Dxx</module>
+    <module>SPC560Dxx/NIL_RTOS_for_SPC560Dxx</module>
+    <module>SPC560Dxx/NIL_RTOS_for_SPC560Dxx_Feature</module>
+    <module>SPC560Dxx/NIL_SPC560Dxx_Kernel_Port_Component</module>
+    <module>SPC57EMxx_HSM/NIL_Demos_for_SPC57EMxx_HSM</module>
+    <module>SPC57EMxx_HSM/NIL_RTOS_for_SPC57EMxx_HSM</module>
+    <module>SPC57EMxx_HSM/NIL_RTOS_for_SPC57EMxx_HSM_Feature</module>
+    <module>SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component</module>
+    <!--<module>common/NIL_RTOS_Update_Site</module>-->
+    <module>common/NIL_SPC56xx_Full_Feature</module>
+    <module>portable/NIL_Portable_Kernel_Component</module>
+    <module>portable/NIL_Portable_OSAL_Component</module>
+  </modules>
+</project>
