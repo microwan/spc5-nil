@@ -10,6 +10,6 @@
   </parent>
   <groupId>com.st.tools.spc5.components</groupId>
   <artifactId>org.chibios.spc5.components.nil.rtos.spc560bxx.feature</artifactId>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.1.2-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
 </project>
