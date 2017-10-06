@@ -13,8 +13,10 @@ if [ ! -d $do_templates ]
 then
   cp ${chibios}/os/nil/templates/nilconf.h                  ./portable/NIL_Portable_Kernel_Component/component/cfg/nilconf.h.ftl
 fi 
-cp -R ${chibios}/os/nil/include                             ./portable/NIL_Portable_Kernel_Component/component/lib
-cp -R ${chibios}/os/nil/src                                 ./portable/NIL_Portable_Kernel_Component/component/lib
+mkdir -p ./portable/NIL_Portable_Kernel_Component/component/lib/include
+mkdir -p ./portable/NIL_Portable_Kernel_Component/component/lib/src
+cp ${chibios}/os/nil/include/*.h                         ./portable/NIL_Portable_Kernel_Component/component/lib/include
+cp ${chibios}/os/nil/src/*.c                             ./portable/NIL_Portable_Kernel_Component/component/lib/src
 
 # Portable OSAL.
 echo "Portable OSAL"
