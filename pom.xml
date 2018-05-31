@@ -25,7 +25,7 @@
     <module>SPC57EMxx_HSM/NIL_RTOS_for_SPC57EMxx_HSM</module>
     <module>SPC57EMxx_HSM/NIL_RTOS_for_SPC57EMxx_HSM_Feature</module>
     <module>SPC57EMxx_HSM/NIL_SPC57EMxx_HSM_Kernel_Port_Component</module>
-    <!--<module>common/NIL_RTOS_Update_Site</module>-->
+    <module>common/NIL_RTOS_Update_Site</module>
     <module>common/NIL_SPC56xx_Full_Feature</module>
     <module>portable/NIL_Portable_Kernel_Component</module>
     <module>portable/NIL_Portable_OSAL_Component</module>
