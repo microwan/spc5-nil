@@ -4,9 +4,9 @@
       NIL RTOS Eclipse Update Site.
    </description>
    <feature id="org.chibios.spc5.components.nil.spc56xx.full.feature" version="0.0.0">
-      <category name="NIL_RTOS"/>
+      <category name="NilOS/RT"/>
    </feature>
-   <category-def name="NIL_RTOS" label="NIL_RTOS">
+   <category-def name="NilOS/RT" label="NilOS/RT">
       <description>
          NIL_RTOS components and plugins.
       </description>
