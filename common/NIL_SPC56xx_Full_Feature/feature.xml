@@ -3,7 +3,7 @@
       id="org.chibios.spc5.components.nil.spc56xx.full.feature"
       label="NIL SPC56xx Full Feature"
       version="1.1.2.qualifier"
-      provider-name="ST Microelectronics">
+      provider-name="STMicroelectronics">
 
    <description>
       NIL RTOS for SPC560xx Components.
